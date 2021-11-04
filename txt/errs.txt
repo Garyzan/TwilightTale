@@ -1,0 +1,1 @@
+0x01: Integer Battle is neither 0 nor 1

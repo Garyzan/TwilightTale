@@ -1,0 +1,56 @@
+Mage: Tomes
+	Sage: Tomes, Magic Arts
+	Necromancer: Tomes, Relic
+
+Knight: Sword
+	Herald: Sword, Lance
+	Paladin: Sword, Magic Arts
+
+Thief: Dagger
+	Assassin: Dagger, Bow
+	Rogue: Dagger, Lance
+
+Damage = Player.Atk - Enemy.Def
+
+Weapon.Durab = Weapon.Durab - (Enemy.Def / 100)
+Armor.Durab = Armor.Durab - (Enemy.Atk / 100)
+
+Sword      : 00
+Tome       : 01
+Dagger     : 02
+Lance      : 03
+Magic      : 04
+Relic      : 05
+Bow        : 06
+
+Helmet     : 11
+Chestpiece : 12
+Gauntlets  : 13
+Leg Armor  : 14
+Boots      : 15
+
+Iron Sword   [A standard Sword. One-Handed Sword.]   {One-Handed Sword/Broadsword/Sword Pair}
+Spell Tome   [A standard Tome. Balanced Tome]        {Aggressive Tome/Balanced Tome/Merciful Tome}
+Iron Dagger  [A standard Dagger. Short Dagger]       {Short Dagger/Long Dagger/Dagger Pair}
+Steel Lance  [A reinforced Lance. Fighters Lance]    {Riders Lance/Fighters Lance/Throwing Lance}
+Inner Light  [A weak Magic Art. Balanced Art]        {Agressive Art/Balanced Art/Unyielding Art}
+Pure Crystal [A simple Crystal. Hidden Relic]        {Ferocious Relic/Balanced Relic/Hidden Relic}
+Fine Bow     [A well crafted Bow. Rapid Fire String] {Rapid Fire String/Standard String/High Tension String}
+
+Sword of Gabriel    [An ancient Sword, glowing softly. It was found by a great hero of former times. Broadsword.]
+Tome of Abel        [An ancient Tome, said to have been written by Abel, son of Adam himself. Aggressive Tome.]
+Enruned Dagger      [An ancient Dagger, inscribed with many runes. Strikes from distances by channeling the earths power. Long Dagger.]
+Lance of Thunder    [An ancient Spear. A mysterious magic lives within, allowing you to harness the power of lightnings. Riders Lance.]
+Light of the Soul   [An ancient Magic Art mastered only by few, it can unleash the full force of the soul upon the enemy. Balanced Art.]
+Hand of Cain        [An ancient Relic crackling with power. Supposedly the cut-off right hand of Cain, son of Adam. Ferocious Relic.]
+Valkyries Bow       [An ancient Bow, capable of firing arrows at the speed of sound. Supposedly previously owned by a Valkyrie. High Tension String.]
+
+Areas:      Path of Light  / Path of Dark
+
+                   Ambushed Barrack
+          Field of Sorrow  /  Forest of Aire
+       Ruins of Riverside  /  City of Windfall
+Shore of the Abhainn Mhor  /  Edraighe Bridge
+            Fasach Desert  /  Scathaithe Mare
+             Merthvyk Arc  /  Daliang Chapel
+              Black Spire  /  White Citadel
